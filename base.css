@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+}
+body, button, input, select, textarea {
+font:12px/1.5 Arial,"����",sans-serif;
+}
+h3 {
+font-size:14px;
+}
+small {
+font-size:12px;
+}
+ul, ol {
+list-style:none outside none;
+}
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+}
+abbr[title], acronym[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+q:before, q:after {
+content:"";
+}
+fieldset, img {
+border:medium none;
+}
+button, input, select, textarea {
+font-size:100%;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+.clearfix:after
+{
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+.clearfix {}
+.clear
+{
+	clear:both;
+}
